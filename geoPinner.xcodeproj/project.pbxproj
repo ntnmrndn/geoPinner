@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E7F20B07B297282B450804 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1E172C96F378FCADB614FD /* libPods.a */; };
+		71EFE2FC1B3B12B300A98A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EFE2FB1B3B12B300A98A1C /* AppDelegate.swift */; };
+		71EFE2FE1B3B12B300A98A1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EFE2FD1B3B12B300A98A1C /* ViewController.swift */; };
+		71EFE3001B3B12B300A98A1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EFE2FF1B3B12B300A98A1C /* Images.xcassets */; };
+		71EFE3031B3B12B300A98A1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71EFE3011B3B12B300A98A1C /* Main.storyboard */; };
+		71EFE30F1B3B12B300A98A1C /* geoPinnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EFE30E1B3B12B300A98A1C /* geoPinnerTests.swift */; };
+		71EFE31C1B3B15E600A98A1C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71EFE31B1B3B15E600A98A1C /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71EFE3091B3B12B300A98A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71EFE2EE1B3B12B300A98A1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71EFE2F51B3B12B300A98A1C;
+			remoteInfo = geoPinner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71A0758178FB3DC636B14765 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		71A653E91B3B5EFF004B5375 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		71EFE2F61B3B12B300A98A1C /* geoPinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geoPinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71EFE2FA1B3B12B300A98A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71EFE2FB1B3B12B300A98A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71EFE2FD1B3B12B300A98A1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71EFE2FF1B3B12B300A98A1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71EFE3021B3B12B300A98A1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71EFE3081B3B12B300A98A1C /* geoPinnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geoPinnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71EFE30D1B3B12B300A98A1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71EFE30E1B3B12B300A98A1C /* geoPinnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geoPinnerTests.swift; sourceTree = "<group>"; };
+		71EFE31A1B3B147C00A98A1C /* geoPinner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = geoPinner.entitlements; sourceTree = "<group>"; };
+		71EFE31B1B3B15E600A98A1C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8A1E172C96F378FCADB614FD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58A06FC087913EA15CA3EC3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71EFE2F31B3B12B300A98A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EFE31C1B3B15E600A98A1C /* MapKit.framework in Frameworks */,
+				02E7F20B07B297282B450804 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71EFE3051B3B12B300A98A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71EFE2ED1B3B12B300A98A1C = {
+			isa = PBXGroup;
+			children = (
+				71A653E91B3B5EFF004B5375 /* Bridging-Header.h */,
+				71EFE31B1B3B15E600A98A1C /* MapKit.framework */,
+				71EFE2F81B3B12B300A98A1C /* geoPinner */,
+				71EFE30B1B3B12B300A98A1C /* geoPinnerTests */,
+				71EFE2F71B3B12B300A98A1C /* Products */,
+				A701195A2E50FCC73D0DD54F /* Pods */,
+				FF205B2B3E614E35221884B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71EFE2F71B3B12B300A98A1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71EFE2F61B3B12B300A98A1C /* geoPinner.app */,
+				71EFE3081B3B12B300A98A1C /* geoPinnerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71EFE2F81B3B12B300A98A1C /* geoPinner */ = {
+			isa = PBXGroup;
+			children = (
+				71EFE31A1B3B147C00A98A1C /* geoPinner.entitlements */,
+				71EFE2FB1B3B12B300A98A1C /* AppDelegate.swift */,
+				71EFE2FD1B3B12B300A98A1C /* ViewController.swift */,
+				71EFE2FF1B3B12B300A98A1C /* Images.xcassets */,
+				71EFE3011B3B12B300A98A1C /* Main.storyboard */,
+				71EFE2F91B3B12B300A98A1C /* Supporting Files */,
+			);
+			path = geoPinner;
+			sourceTree = "<group>";
+		};
+		71EFE2F91B3B12B300A98A1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71EFE2FA1B3B12B300A98A1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71EFE30B1B3B12B300A98A1C /* geoPinnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				71EFE30E1B3B12B300A98A1C /* geoPinnerTests.swift */,
+				71EFE30C1B3B12B300A98A1C /* Supporting Files */,
+			);
+			path = geoPinnerTests;
+			sourceTree = "<group>";
+		};
+		71EFE30C1B3B12B300A98A1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71EFE30D1B3B12B300A98A1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A701195A2E50FCC73D0DD54F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71A0758178FB3DC636B14765 /* Pods.debug.xcconfig */,
+				D58A06FC087913EA15CA3EC3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF205B2B3E614E35221884B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A1E172C96F378FCADB614FD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71EFE2F51B3B12B300A98A1C /* geoPinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71EFE3121B3B12B300A98A1C /* Build configuration list for PBXNativeTarget "geoPinner" */;
+			buildPhases = (
+				4243465411EF9BE1102B9A9B /* Check Pods Manifest.lock */,
+				71EFE2F21B3B12B300A98A1C /* Sources */,
+				71EFE2F31B3B12B300A98A1C /* Frameworks */,
+				71EFE2F41B3B12B300A98A1C /* Resources */,
+				BC735FD071C244040167C16B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geoPinner;
+			productName = geoPinner;
+			productReference = 71EFE2F61B3B12B300A98A1C /* geoPinner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71EFE3071B3B12B300A98A1C /* geoPinnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71EFE3151B3B12B300A98A1C /* Build configuration list for PBXNativeTarget "geoPinnerTests" */;
+			buildPhases = (
+				71EFE3041B3B12B300A98A1C /* Sources */,
+				71EFE3051B3B12B300A98A1C /* Frameworks */,
+				71EFE3061B3B12B300A98A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71EFE30A1B3B12B300A98A1C /* PBXTargetDependency */,
+			);
+			name = geoPinnerTests;
+			productName = geoPinnerTests;
+			productReference = 71EFE3081B3B12B300A98A1C /* geoPinnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71EFE2EE1B3B12B300A98A1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					71EFE2F51B3B12B300A98A1C = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = U36XC26FD6;
+						SystemCapabilities = {
+							com.apple.Maps.Mac = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					71EFE3071B3B12B300A98A1C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 71EFE2F51B3B12B300A98A1C;
+					};
+				};
+			};
+			buildConfigurationList = 71EFE2F11B3B12B300A98A1C /* Build configuration list for PBXProject "geoPinner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71EFE2ED1B3B12B300A98A1C;
+			productRefGroup = 71EFE2F71B3B12B300A98A1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71EFE2F51B3B12B300A98A1C /* geoPinner */,
+				71EFE3071B3B12B300A98A1C /* geoPinnerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71EFE2F41B3B12B300A98A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EFE3001B3B12B300A98A1C /* Images.xcassets in Resources */,
+				71EFE3031B3B12B300A98A1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71EFE3061B3B12B300A98A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4243465411EF9BE1102B9A9B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC735FD071C244040167C16B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71EFE2F21B3B12B300A98A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EFE2FE1B3B12B300A98A1C /* ViewController.swift in Sources */,
+				71EFE2FC1B3B12B300A98A1C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71EFE3041B3B12B300A98A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EFE30F1B3B12B300A98A1C /* geoPinnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71EFE30A1B3B12B300A98A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71EFE2F51B3B12B300A98A1C /* geoPinner */;
+			targetProxy = 71EFE3091B3B12B300A98A1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71EFE3011B3B12B300A98A1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71EFE3021B3B12B300A98A1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71EFE3101B3B12B300A98A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71EFE3111B3B12B300A98A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		71EFE3131B3B12B300A98A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A0758178FB3DC636B14765 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = geoPinner/geoPinner.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = geoPinner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		71EFE3141B3B12B300A98A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D58A06FC087913EA15CA3EC3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = geoPinner/geoPinner.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = geoPinner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+			};
+			name = Release;
+		};
+		71EFE3161B3B12B300A98A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = geoPinnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geoPinner.app/Contents/MacOS/geoPinner";
+			};
+			name = Debug;
+		};
+		71EFE3171B3B12B300A98A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = geoPinnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/geoPinner.app/Contents/MacOS/geoPinner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71EFE2F11B3B12B300A98A1C /* Build configuration list for PBXProject "geoPinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71EFE3101B3B12B300A98A1C /* Debug */,
+				71EFE3111B3B12B300A98A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71EFE3121B3B12B300A98A1C /* Build configuration list for PBXNativeTarget "geoPinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71EFE3131B3B12B300A98A1C /* Debug */,
+				71EFE3141B3B12B300A98A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71EFE3151B3B12B300A98A1C /* Build configuration list for PBXNativeTarget "geoPinnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71EFE3161B3B12B300A98A1C /* Debug */,
+				71EFE3171B3B12B300A98A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71EFE2EE1B3B12B300A98A1C /* Project object */;
+}
